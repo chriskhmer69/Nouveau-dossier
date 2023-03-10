@@ -1,0 +1,128 @@
+@media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+  @media (max-width: 480px) {
+    img {
+        width: 100%;
+    }
+}
+
+.header{
+    color: #dddddd;
+}
+.col-4{
+    padding: 0 0.2rem;
+}
+.icon{
+    align-self: flex-end;
+    margin-right: -2.5rem;
+    margin-top: -2rem;
+    z-index: 999;
+}
+.icon img{
+    width: 5rem;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}
+
+.title{
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+.title p{
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+}
+.navbar bg-body-tertiary { 
+    background-color: #ffccff;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(238, 237, 237, 0.33);
+    color: rgb(105, 104, 104);
+    font-family: sans-serif;
+    min-width: 1000px;
+    
+}
+img {
+    width: 100%;
+}
+img {
+    width: 400px;
+}
+.buletin video {
+    size-adjust: 50px;
+    width: 50px;
+    height: 50px;
+    background-color:beige;
+}
+
+
+
+
+
+
+/*en attente
+
+.deux {
+background-color: aquamarine;
+}
+
+
+
+
+.container{
+    height: 80vh;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    align-items: center;
+    border-radius: 1rem;
+    vertical-align: middle;
+}
+
+    .container{
+        height: fit-content;
+    }
+}
+.weather
+{
+    width: 77%;
+}
+
+.card{
+    padding: 1rem;
+    margin: 1.5rem 4vw;
+    border-radius: 1rem;
+    background-color: rgba(238, 237, 237, 0.22);
+    border-color: rgba(238, 237, 237, 0.22);
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    text-align: center;
+}
+
+
+.temp{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+
+#carouselExampleFade{
+size-adjust: 10px;
+
+}
